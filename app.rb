@@ -21,5 +21,6 @@ get '/sinatra' do
 end
 
 get '/cat' do
+  @cat_name = ["Viking", "Oscar", "Amanda", "Lionel"].sample
   erb (:index)
 end
