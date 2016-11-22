@@ -21,5 +21,5 @@ get '/sinatra' do
 end
 
 get '/cat' do
-  erb :cat
+  erb (:index)
 end
