@@ -19,3 +19,7 @@ end
 get '/sinatra' do
   "learning sinatra"
 end
+
+get '/cat' do
+  erb :cat
+end
